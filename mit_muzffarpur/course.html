@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link <!-- Bootstrap CSS -- />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>MIT MUZAFFARPUR</title>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="image/logo.png" alt="" /></a>
+        <div class="nav-link" id="navlink">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our courses</h1>
+    </section>
+    <!--COURSE SECTION-->
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Engineering</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
+            suscipit deleniti molestias nesciunt, quas dolorem, laudantium
+            veniam consequatur amet eligendi cumque aliquam, nemo error. Odio
+            accusamus voluptate tempore quod omnis!
+          </p>
+        </div>
+
+        <div class="course-col">
+          <h3>Pharmacy</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
+            suscipit deleniti molestias nesciunt, quas dolorem, laudantium
+            veniam consequatur amet eligendi cumque aliquam, nemo error. Odio
+            accusamus voluptate tempore quod omnis!
+          </p>
+        </div>
+
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
+            suscipit deleniti molestias nesciunt, quas dolorem, laudantium
+            veniam consequatur amet eligendi cumque aliquam, nemo error. Odio
+            accusamus voluptate tempore quod omnis!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--FACILITIES-->
+
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="image/library.png" />
+          <h3>World class Library</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+            delectus dolorem vel architecto quae,<br />
+            dolore reiciendis aliquam pariatur laborum doloremque facilis!
+            Aspernatur libero illo exercitationem quaerat?
+          </p>
+        </div>
+
+        <div class="facilities-col">
+          <img src="image/basketball.png" />
+          <h3>Largest Play Ground</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+            delectus dolorem vel architecto quae,<br />
+            dolore reiciendis aliquam pariatur laborum doloremque facilis!
+            Aspernatur libero illo exercitationem quaerat?
+          </p>
+        </div>
+
+        <div class="facilities-col">
+          <img src="image/cafeteria.png" />
+          <h3>Tasty and Heathy Food</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+            delectus dolorem vel architecto quae,<br />
+            dolore reiciendis aliquam pariatur laborum doloremque facilis!
+            Aspernatur libero illo exercitationem quaerat?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem sunt minus
+        minima dignissimos ea <br />
+        Fuga eius delectus porro vitae molestiae? Perferendis, quo quis. Vel
+        quaerat vero praesentium cum voluptate?
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by Vivek</p>
+    </section>
+    <!--javascript-->
+    <script>
+      var navlink = document.getElementById("navlink");
+      function showMenu() {
+        navlink.style.right = "0";
+      }
+      function hideMenu() {
+        navlink.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
